@@ -125,55 +125,82 @@ nav ul li a {
   font-size: 20px;
 }
 
-/* Increase the size of each product card */
+/* Products section */
+.products {
+  display: flex;
+  justify-content: center;  /* Center all products */
+  flex-wrap: wrap;  /* Allow wrapping for responsiveness */
+  gap: 30px;  /* Add some space between the product cards */
+  padding: 50px;
+  background-color: #000000;
+}
+
 .product {
   text-align: center;
   padding: 20px;
-  width: 350px;  /* Increased from 300px to 350px */
+  width: 280px;  /* Reduce the product card size to 280px */
   margin-bottom: 20px;
   background-color: #111111;
   border-radius: 10px;
 }
 
-/*product images large */
+/* Product images */
 .product img {
-  width: 100%;  /* Keep this to ensure the image fills the card */
+  width: 100%;  /* Ensure the image fills the card width */
   height: auto;
+  max-width: 250px;  /* Limit the maximum image size */
   border-radius: 10px;
 }
 
-/*  the product titles */
+/* Product titles */
 .product h3 {
   color: #ffd700;
   margin-top: 15px;
-  font-size: 24px;  /* Increase the font size for product titles */
+  font-size: 24px;
 }
 
-/* Increase the font size for product descriptions */
+/* Product descriptions */
 .product p {
-  font-size: 20px;  /* Increased from 18px to 20px */
+  font-size: 18px;
   margin: 10px 0;
   color: #dddddd;
 }
 
-/* Adjust the button size */
+/* Button styling */
 .product button {
   background-color: #ffd700;
   color: #000000;
-  padding: 15px 30px;  /* Increased padding for larger buttons */
-  font-size: 18px;  /* Increased button text size */
+  padding: 10px 20px;
   border: none;
   cursor: pointer;
+  font-size: 16px;  /* Adjusted button text size */
 }
 
 .product button:hover {
   background-color: #f9d450;
 }
 
-/* Footer styling */
-footer {
-  background-color: #111111;
-  padding: 20px;
-  text-align: center;
-  color: #ffffff;
+/* Navigation styling */
+nav ul {
+  list-style: none;  /* Remove bullets */
+  padding: 0;
+  display: flex;
+  justify-content: center;  /* Center nav links */
+  gap: 20px;  /* Add space between the links */
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  color: #ffd700;  /* Gold text for links */
+  text-decoration: none;
+  font-size: 20px;
+  transition: color 0.3s ease;  /* Smooth transition for hover effect */
+}
+
+nav ul li a:hover {
+  color: #ffffff;  /* White text when hovered */
+  text-decoration: underline;  /* Optional: Add underline on hover */
 }
