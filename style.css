@@ -98,6 +98,13 @@ section {
   background-color: #f9d450;
 }
 
+.hero h1 {
+  font-size: 56px;
+  margin-bottom: 20px;
+  color: #ffd700; /* Gold text */
+  text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000; /* Black outline */
+}
+
 /* Button styling */
 button {
   background-color: #ffd700;  /* Gold button */
