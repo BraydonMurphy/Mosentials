@@ -41,11 +41,11 @@ section {
   margin-bottom: 40px; /* Add margin to separate sections */
 }
 
-/* Hero section */
+/* Hero Section */
 .hero {
-  background-image: url('https://www.save-free.com/cdn/https://instagram.fcgh7-1.fna.fbcdn.net/v/t51.2885-19/167387925_202546171264584_6204667153913660696_n.jpg?_nc_ht=instagram.fcgh7-1.fna.fbcdn.net&_nc_cat=100&_nc_ohc=ysZ7NarSgKQQ7kNvgFxs7rK&_nc_gid=1a4c67f27ef64329a99e179685acb37e&edm=AEF8tYYBAAAA&ccb=7-5&oh=00_AYChLcZkwgCNH_NuQK8WmglHnIxbaBidX0uG4FYSpzgTrw&oe=66F58FAE&_nc_sid=1e20d2'); /* URL of the image */
-  background-size: cover;  /* Make sure the image covers the entire section */
-  background-position: center;  /* Centered the background image */
+  background-image: url('moseantials creams and lip balm.jpg'); /* Make sure the path is correct */
+  background-size: cover;  /* Make the image cover the entire section */
+  background-position: center;  /* Center the background image */
   height: 100vh;  /* Full viewport height */
   display: flex;
   justify-content: center;
