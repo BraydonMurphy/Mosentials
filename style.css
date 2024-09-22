@@ -342,3 +342,23 @@ footer {
   background: linear-gradient(45deg, #ffb800, #e6a600); /* Slightly darker when clicked */
   box-shadow: 0 2px 10px rgba(255, 223, 0, 0.6); /* Lower shadow when clicked */
 }
+@keyframes shine {
+  0% {
+    background-position: 0%;
+  }
+  100% {
+    background-position: 200%;
+  }
+}
+
+/* Add shine effect */
+.shiny-button {
+  background: linear-gradient(45deg, #ffd700, #ffcc00, #ffd700);
+  background-size: 200%;
+  transition: background 0.4s, box-shadow 0.4s;
+}
+
+.shiny-button:hover {
+  background-position: 100%;
+  animation: shine 2s infinite linear; /* Continuous shine effect */
+}
