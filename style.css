@@ -5,7 +5,56 @@ body {
   font-family: 'Great Vibes', cursive;  /* Apply Great Vibes font */
   margin: 0;
   padding: 0;
+  display: flex;
+  justify-content: center;  /* Center horizontally */
+  align-items: center;  /* Center vertically */
+  height: 100vh;  /* Full viewport height */
+  flex-direction: column;  /* Stack items vertically */
 }
+
+.container {
+  text-align: center;  /* Center text inside the container */
+  max-width: 800px;  /* Optional: Set a max width for better readability */
+  margin: 0 auto;  /* Center the container */
+}
+
+header, section, footer {
+  margin-bottom: 40px;  /* Add space between sections */
+}
+
+/* Nav styling for horizontal alignment of links */
+nav ul {
+  list-style: none;  /* Remove bullet points */
+  padding: 0;
+  display: flex;
+  justify-content: center;  /* Center nav links horizontally */
+  gap: 20px;  /* Space between links */
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  color: #ffd700;  /* Gold color for nav links */
+  text-decoration: none;
+  font-size: 20px;
+}
+
+/* Button styling */
+button {
+  background-color: #ffd700;  /* Gold button */
+  color: #000000;  /* Black text on button */
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-top: 20px;  /* Add margin to separate it from other content */
+}
+
+button:hover {
+  background-color: #f9d450;  /* Lighter gold on hover */
+}
+
 
 header {
   background-color: #000000;
