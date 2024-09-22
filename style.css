@@ -43,7 +43,7 @@ section {
 
 /* Hero Section */
 .hero {
-  background-image: url('moseantials-creams-and-lip-balm.png'); /* Replace with actual path */
+  background-image: url('https://raw.githubusercontent.com/BraydonMurphy/Mosentials/main/moseantials-creams-and-lip-balm.png'); /* Replace with actual path */
   background-size: cover;  /* Make the image cover the entire section */
   background-position: center;  /* Center the background image */
   height: 100vh;  /* Full viewport height */
