@@ -43,7 +43,7 @@ section {
 
 /* Hero Section */
 .hero {
-  background-image: url('moseantials-creams-and-lip-balm.png');
+  background-image: url('images/moseantials-creams-and-lip-balm.png');
   background-size: cover;
   background-position: center;
   height: 100vh;
@@ -54,6 +54,7 @@ section {
   position: relative;
   color: #ffffff;
 }
+
 
 
 .hero::after {
