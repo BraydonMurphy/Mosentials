@@ -125,33 +125,43 @@ nav ul li a {
   font-size: 20px;
 }
 
-/* Products section */
-.products {
-  display: flex;
-  justify-content: space-around;
-  padding: 50px;
-  background-color: #000000;
-}
-
+/* Increase the size of each product card */
 .product {
   text-align: center;
   padding: 20px;
+  width: 350px;  /* Increased from 300px to 350px */
+  margin-bottom: 20px;
+  background-color: #111111;
+  border-radius: 10px;
 }
 
+/*product images large */
 .product img {
-  width: 200px;
+  width: 100%;  /* Keep this to ensure the image fills the card */
   height: auto;
   border-radius: 10px;
 }
 
+/*  the product titles */
 .product h3 {
-  color: #ffffff;
+  color: #ffd700;
+  margin-top: 15px;
+  font-size: 24px;  /* Increase the font size for product titles */
 }
 
+/* Increase the font size for product descriptions */
+.product p {
+  font-size: 20px;  /* Increased from 18px to 20px */
+  margin: 10px 0;
+  color: #dddddd;
+}
+
+/* Adjust the button size */
 .product button {
-  background-color: #ffd700;  /* Gold button */
+  background-color: #ffd700;
   color: #000000;
-  padding: 10px 20px;
+  padding: 15px 30px;  /* Increased padding for larger buttons */
+  font-size: 18px;  /* Increased button text size */
   border: none;
   cursor: pointer;
 }
