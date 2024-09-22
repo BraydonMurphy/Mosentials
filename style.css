@@ -1,42 +1,105 @@
-/* Apply a black background for the entire page */
+/* General styling */
 body {
   background-color: #000000;  /* Black background */
-  color: #ffffff;             /* White text for general content */
-  font-family: 'Arial', sans-serif;  /* Clean, simple font */
+  color: #ffffff;  /* White text */
+  font-family: 'Poppins', sans-serif;  /* Modern, elegant font */
+  margin: 0;
+  padding: 0;
 }
 
-/* Headers should use a gold color */
-h1, h2, h3 {
-  color: #ffd700;  /* Gold color for headers */
+header {
+  background-color: #000000;
+  padding: 20px;
+  text-align: center;
 }
 
-/* Styling links */
-a {
+header img {
+  max-width: 150px;  /* Add your logo here */
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+nav ul li a {
   color: #ffd700;  /* Gold links */
   text-decoration: none;
+  font-weight: bold;
 }
 
-a:hover {
-  color: #f9d450;  /* Slightly lighter gold on hover */
+/* Hero section */
+.hero {
+  text-align: center;
+  padding: 100px 20px;
+  background-color: #111111; /* Dark background for hero */
 }
 
-/* Styling buttons */
-button {
-  background-color: #ffd700;  /* Gold background */
-  color: #000000;             /* Black text */
-  border: none;
+.hero h1 {
+  color: #ffd700;  /* Gold text */
+  font-size: 48px;
+}
+
+.hero p {
+  font-size: 18px;
+  color: #dddddd;
+}
+
+.hero button {
+  background-color: #ffd700;  /* Gold button */
+  color: #000000;
   padding: 10px 20px;
+  font-size: 16px;
+  border: none;
   cursor: pointer;
 }
 
-button:hover {
-  background-color: #f9d450;  /* Lighter gold when hovered */
+.hero button:hover {
+  background-color: #f9d450;
 }
 
-/* Footer styles with white text */
-footer {
-  background-color: #111111;  /* Very dark background for contrast */
-  color: #ffffff;
+/* Featured products */
+.products {
+  display: flex;
+  justify-content: space-around;
+  padding: 50px;
+  background-color: #000000;
+}
+
+.product {
   text-align: center;
   padding: 20px;
+}
+
+.product img {
+  width: 200px;
+  height: auto;
+  border-radius: 10px;
+}
+
+.product h3 {
+  color: #ffffff;
+}
+
+.product button {
+  background-color: #ffd700;  /* Gold button */
+  color: #000000;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.product button:hover {
+  background-color: #f9d450;
+}
+
+/* Footer */
+footer {
+  background-color: #111111;
+  padding: 20px;
+  text-align: center;
+  color: #ffffff;
 }
