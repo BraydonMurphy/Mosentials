@@ -52,7 +52,6 @@ section {
   align-items: center;
   text-align: center;
   position: relative;
-  color: #ffffff;
 }
 
 .hero::after {
