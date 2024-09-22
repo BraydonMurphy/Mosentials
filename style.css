@@ -131,6 +131,29 @@ nav ul {
 nav ul li {
   display: inline-block;
 }
+/* Base styles for the product card */
+.product {
+  text-align: center;
+  padding: 20px;
+  width: 300px;
+  margin-bottom: 20px;
+  background-color: #111111;
+  border-radius: 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Add transition for smooth hover effect */
+}
+
+/* Product image styling */
+.product img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+/* Hover effect: make the product pop */
+.product:hover {
+  transform: scale(1.05); /* Slightly increase the size of the product */
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5); /* Add shadow for a 'lifting' effect */
+}
 
 nav ul li a {
   color: #ffd700;  /* Gold text for links */
