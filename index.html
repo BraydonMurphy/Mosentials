@@ -12,6 +12,33 @@
   <!-- Link to your CSS file -->
   <link rel="stylesheet" href="style.css">
 </head>
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      const links = document.querySelectorAll("nav a");
+
+      for (const link of links) {
+        link.addEventListener("click", function(event) {
+          if (this.hash !== "") {
+            event.preventDefault();
+
+            const hash = this.hash;
+
+            document.querySelector(hash).scrollIntoView({
+              behavior: 'smooth'
+            });
+          }
+        });
+      }
+    });
+  </script>
+</head>
+
+<body>
+  <div class="container">
+    <!-- Content here -->
+  </div>
+</body>
+</html>
 <body>
   <div class="container">
     <header>
