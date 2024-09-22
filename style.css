@@ -43,14 +43,19 @@ section {
 
 /* Hero Section */
 .hero {
-  background-color: red; /* Set a bright background color to debug */
-  height: 100vh;
+  background-image: url('moseantials-creams-and-lip-balm.png'); /* Replace with actual path */
+  background-size: cover;  /* Make the image cover the entire section */
+  background-position: center;  /* Center the background image */
+  height: 100vh;  /* Full viewport height */
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
-  color: #ffffff;
+  color: #ffffff;  /* Ensure text is white for readability */
+  position: relative;  /* Make sure the image stays in position */
+  z-index: 1;  /* Ensure hero section shows above other elements */
 }
+
 
 .hero::after {
   content: "";
