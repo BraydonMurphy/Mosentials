@@ -14,12 +14,18 @@ body {
   margin: 0 auto;  /* Ensure the container stays centered */
 }
 
-/* Apply Great Vibes to logo only */
+/* Apply margin or padding to move it away from the left side */
 .logo {
   font-family: 'Great Vibes', cursive;
   font-size: 48px;
   color: #ffd700;  /* Gold color for the logo */
+  padding-left: 20px; /* Add padding to the left */
 }
+
+header {
+  padding-left: 20px; /* Add padding to the header if necessary */
+}
+
 
 header, section, footer {
   margin-bottom: 40px;  /* Space between each section */
