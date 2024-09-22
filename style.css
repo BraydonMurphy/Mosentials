@@ -43,10 +43,57 @@ section {
 
 /* Hero section */
 .hero {
+  background-image: url('https://www.save-free.com/cdn/https://instagram.fcgh7-1.fna.fbcdn.net/v/t51.2885-19/167387925_202546171264584_6204667153913660696_n.jpg?_nc_ht=instagram.fcgh7-1.fna.fbcdn.net&_nc_cat=100&_nc_ohc=ysZ7NarSgKQQ7kNvgFxs7rK&_nc_gid=1a4c67f27ef64329a99e179685acb37e&edm=AEF8tYYBAAAA&ccb=7-5&oh=00_AYChLcZkwgCNH_NuQK8WmglHnIxbaBidX0uG4FYSpzgTrw&oe=66F58FAE&_nc_sid=1e20d2'); /* URL of the image */
+  background-size: cover;  /* Make sure the image covers the entire section */
+  background-position: center;  /* Centered the background image */
+  height: 100vh;  /* Full viewport height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
   text-align: center;
-  padding: 100px 20px;
-  background-color: #111111; /* Dark background for hero */
+  position: relative;
+  color: #ffffff;  /* White text */
 }
+
+.hero::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);  /* Dark overlay for better readability */
+}
+
+.hero-content {
+  position: relative;
+  z-index: 2;  /* Ensure content is above the overlay */
+}
+
+.hero h1 {
+  font-size: 56px;
+  margin-bottom: 20px;
+  color: #ffd700; /* Gold text */
+}
+
+.hero p {
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+
+.hero button {
+  background-color: #ffd700;
+  color: #000000;
+  padding: 15px 30px;
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+}
+
+.hero button:hover {
+  background-color: #f9d450;
+}
+
 
 /* Button styling */
 button {
