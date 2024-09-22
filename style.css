@@ -43,15 +43,12 @@ section {
 
 /* Hero Section */
 .hero {
-  background-image: url('https://via.placeholder.com/1920x1080'); /* Test placeholder */
-  background-size: cover;
-  background-position: center;
+  background-color: red; /* Set a bright background color to debug */
   height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
-  position: relative;
   color: #ffffff;
 }
 
