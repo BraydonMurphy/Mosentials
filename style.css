@@ -43,7 +43,7 @@ section {
 
 /* Hero Section */
 .hero {
-  background-image: url('images/mosentials-creams-and-lip-balm.jpg'); /* Corrected the path and renamed the file */
+  background-image: url('background-image: url('images/mosentials-creams-and-lip-balm.jpg');' /* Corrected the path and renamed the file */
   background-size: cover;  /* Make the image cover the entire section */
   background-position: center;  /* Center the background image */
   height: 100vh;  /* Full viewport height */
@@ -200,16 +200,6 @@ footer {
 .product h3 {
   color: #ffd700;                 /* Gold color for product names */
   margin: 10px 0;                 /* Add some space around the product name */
-}
-
-/* Button styling */
-.product button {
-  background-color: #ffd700;      /* Gold button */
-  color: #000000;
-  padding: 10px 20px;
-  border: none;
-  cursor: pointer;
-  margin-top: 10px;
 }
 
 .product button:hover {
