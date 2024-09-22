@@ -43,7 +43,7 @@ section {
 
 /* Hero Section */
 .hero {
-  background-image: url('background-image: url('images/mosentials-creams-and-lip-balm.jpg');' /* Corrected the path and renamed the file */
+  background-image: url('images/mosentials-creams-and-lip-balm.jpg'); /* Corrected the path */
   background-size: cover;  /* Make the image cover the entire section */
   background-position: center;  /* Center the background image */
   height: 100vh;  /* Full viewport height */
@@ -389,35 +389,4 @@ footer {
   100% {
     background-position: 200%;
   }
-}
-
-
-.shiny-button:hover {
-  background: linear-gradient(45deg, #ffcc00, #ffd700); /* Invert the gradient on hover */
-  box-shadow: 0 6px 20px rgba(255, 223, 0, 0.8); /* Larger shadow on hover */
-}
-
-.shiny-button:active {
-  background: linear-gradient(45deg, #ffb800, #e6a600); /* Slightly darker when clicked */
-  box-shadow: 0 2px 10px rgba(255, 223, 0, 0.6); /* Lower shadow when clicked */
-}
-@keyframes shine {
-  0% {
-    background-position: 0%;
-  }
-  100% {
-    background-position: 200%;
-  }
-}
-
-/* Add shine effect */
-.shiny-button {
-  background: linear-gradient(45deg, #ffd700, #ffcc00, #ffd700);
-  background-size: 200%;
-  transition: background 0.4s, box-shadow 0.4s;
-}
-
-.shiny-button:hover {
-  background-position: 100%;
-  animation: shine 2s infinite linear; /* Continuous shine effect */
 }
