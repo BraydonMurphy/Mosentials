@@ -43,7 +43,7 @@ section {
 
 /* Hero Section */
 .hero {
-  background-image: url('https://raw.githubusercontent.com/BraydonMurphy/Mosentials/main/moseantials-creams-and-lip-balm.png'); /* Use raw URL */
+  background-image: url('moseantials-creams-and-lip-balm.png');
   background-size: cover;
   background-position: center;
   height: 100vh;
@@ -52,8 +52,9 @@ section {
   align-items: center;
   text-align: center;
   position: relative;
-  color: #ffffff;  /* White text */
+  color: #ffffff;
 }
+
 
 .hero::after {
   content: "";
