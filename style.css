@@ -43,7 +43,7 @@ section {
 
 /* Hero Section */
 .hero {
-  background-image: url('moseantials-creams-and-lip-balm.png'); /* Corrected the path */
+  background-image: url('images/mosentials-creams-and-lip-balm.png'); /* Corrected the file name and ensured path */
   background-size: cover;  /* Make the image cover the entire section */
   background-position: center;  /* Center the background image */
   height: 100vh;  /* Full viewport height */
