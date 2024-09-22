@@ -1,8 +1,8 @@
-/* General styling */
+/* General styling for body */
 body {
   background-color: #0E0E07;  /* Black background */
   color: #ffffff;  /* White text */
-  font-family: 'Great Vibes', cursive;  /* Apply Great Vibes font */
+  font-family: 'Poppins', sans-serif;  /* Use Poppins for general text */
   margin: 0;
   padding: 0;
   display: flex;
@@ -12,72 +12,34 @@ body {
   flex-direction: column;  /* Stack items vertically */
 }
 
+/* Container styling */
 .container {
   text-align: center;  /* Center text inside the container */
-  max-width: 800px;  /* Optional: Set a max width for better readability */
-  margin: 0 auto;  /* Center the container */
+  max-width: 800px;  /* Optional: set a max width to prevent it from stretching too wide */
+  margin: 0 auto;  /* Ensure the container stays centered */
+}
+
+/* Apply Great Vibes to logo only */
+.logo {
+  font-family: 'Great Vibes', cursive;
+  font-size: 48px;
+  color: #ffd700;  /* Gold color for the logo */
 }
 
 header, section, footer {
-  margin-bottom: 40px;  /* Add space between sections */
+  margin-bottom: 40px;  /* Space between each section */
 }
 
-/* Nav styling for horizontal alignment of links */
-nav ul {
-  list-style: none;  /* Remove bullet points */
-  padding: 0;
-  display: flex;
-  justify-content: center;  /* Center nav links horizontally */
-  gap: 20px;  /* Space between links */
+/* Adjust headers */
+h1, h2 {
+  color: #ffd700; /* Gold color for headers */
+  margin-bottom: 20px; /* Space below each heading */
 }
 
-nav ul li {
-  display: inline-block;
-}
-
-nav ul li a {
-  color: #ffd700;  /* Gold color for nav links */
-  text-decoration: none;
-  font-size: 20px;
-}
-
-/* Button styling */
-button {
-  background-color: #ffd700;  /* Gold button */
-  color: #000000;  /* Black text on button */
-  border: none;
-  padding: 10px 20px;
-  cursor: pointer;
-  margin-top: 20px;  /* Add margin to separate it from other content */
-}
-
-button:hover {
-  background-color: #f9d450;  /* Lighter gold on hover */
-}
-
-
-header {
-  background-color: #000000;
-  padding: 20px;
-  text-align: center;
-}
-
-header img {
-  max-width: 150px;  /* Add your logo here */
-}
-
-nav ul {
-  list-style: none;
-  padding: 0;
-  display: flex;
-  justify-content: center;
-  gap: 30px;
-}
-
-nav ul li a {
-  color: #ffd700;  /* Gold links */
-  text-decoration: none;
-  font-weight: bold;
+/* Section padding */
+section {
+  padding: 40px 20px; /* Add padding inside the sections */
+  margin-bottom: 40px; /* Add margin to separate sections */
 }
 
 /* Hero section */
@@ -87,30 +49,40 @@ nav ul li a {
   background-color: #111111; /* Dark background for hero */
 }
 
-.hero h1 {
-  color: #ffd700;  /* Gold text */
-  font-size: 48px;
-}
-
-.hero p {
-  font-size: 18px;
-  color: #dddddd;
-}
-
-.hero button {
+/* Button styling */
+button {
   background-color: #ffd700;  /* Gold button */
   color: #000000;
   padding: 10px 20px;
-  font-size: 16px;
   border: none;
   cursor: pointer;
+  margin-top: 20px; /* Add margin to the top for space */
 }
 
-.hero button:hover {
-  background-color: #f9d450;
+button:hover {
+  background-color: #f9d450;  /* Lighter gold on hover */
 }
 
-/* Featured products */
+/* Navigation styling */
+nav ul {
+  list-style: none;  /* Remove bullets */
+  padding: 0;
+  display: flex;
+  justify-content: center;  /* Center nav links */
+  gap: 20px;  /* Add space between the links */
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  color: #ffd700;  /* Gold text for links */
+  text-decoration: none;
+  font-size: 20px;
+}
+
+/* Products section */
 .products {
   display: flex;
   justify-content: space-around;
@@ -145,79 +117,10 @@ nav ul li a {
   background-color: #f9d450;
 }
 
-/* Footer */
+/* Footer styling */
 footer {
   background-color: #111111;
   padding: 20px;
   text-align: center;
   color: #ffffff;
-}
-/* General styling for the body */
-
-body {
-  background-color: #0E0E07;  /* Black background */
-  color: #ffffff;  /* White text */
-  font-family: 'Great Vibes', cursive;  /* Apply Great Vibes font */
-  margin: 0;
-  padding: 0;
-  display: flex;
-  justify-content: center;  /* Center horizontally */
-  align-items: center;  /* Center vertically */
-  height: 100vh;  /* Full viewport height */
-}
-
-.container {
-  text-align: center;  /* Center text inside the container */
-  max-width: 800px;  /* Optional: set a max width to prevent it from stretching too wide */
-  margin: 0 auto;  /* Ensure the container stays centered */
-}
-
-header, section, footer {
-  margin-bottom: 40px;  /* Space between each section */
-}
-
-
-/* Adjust headers */
-h1, h2 {
-  color: #ffd700; /* Gold color for headers */
-  margin-bottom: 20px; /* Space below each heading */
-}
-
-/* Adjust text sections */
-section {
-  padding: 40px 20px; /* Add padding inside the sections */
-  margin-bottom: 40px; /* Add margin to separate sections */
-}
-
-.hero {
-  text-align: center;
-  padding: 100px 20px;
-  background-color: #111111; /* Dark background for hero */
-}
-/* Button styling */
-button {
-  background-color: #ffd700;  /* Gold button */
-  color: #000000;
-  padding: 10px 20px;
-  border: none;
-  cursor: pointer;
-  margin-top: 20px; /* Add margin to the top for space */
-}
-
-nav ul {
-  list-style: none;  /* Remove bullets */
-  padding: 0;
-  display: flex;
-  justify-content: center;  /* Center nav links */
-  gap: 20px;  /* Add space between the links */
-}
-
-nav ul li {
-  display: inline-block;
-}
-
-nav ul li a {
-  color: #ffd700;  /* Gold text for links */
-  text-decoration: none;
-  font-size: 20px;
 }
